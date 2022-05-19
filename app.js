@@ -1,5 +1,5 @@
 const app = require("express")();
-import cors from "cors;";
+const cors = require("cors");
 const authRoutes = require("./routes/routes");
 require("dotenv").config();
 require("./config/db.js");
